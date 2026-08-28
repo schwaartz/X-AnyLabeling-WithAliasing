@@ -3946,8 +3946,8 @@ class Canvas(
 
         p = self._painter
         p.begin(self)
-        p.setRenderHint(QtGui.QPainter.RenderHint.Antialiasing)
-        p.setRenderHint(QtGui.QPainter.RenderHint.SmoothPixmapTransform)
+        p.setRenderHint(QtGui.QPainter.RenderHint.Antialiasing, False) #  CHANGED TO FALSE
+        p.setRenderHint(QtGui.QPainter.RenderHint.SmoothPixmapTransform, False) # CHANGED TO FALSE
 
         p.scale(self.scale, self.scale)
         p.translate(self.offset_to_center())
