@@ -26,6 +26,10 @@
 
 <img src="https://github.com/user-attachments/assets/aa819dae-e38c-4b1c-a4a7-53a873d870e3" alt="X-AnyLabeling interface" width="100%" />
 
+## Fork
+
+In X-AnyLabeling you cannot turn off anti-aliasing. When you are labeling very low-resolution images, every pixels counts. In such scenarios it's nice to have anti-aliasing turned off so you can clearly see the borders between pixels. This fork does just that.
+
 ## 🥳 What's New
 
 - `2026-08-19`: Add support for [image tagging](https://xanylabeling.com/docs/x-anylabeling/user_guide#37-image-tags), with tag creation, editing, reordering, and batch deletion.
